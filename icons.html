@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/theme-dark.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rancho&display=swap" rel="stylesheet">
+    <title>All For Css | Recursos css</title>
+</head>
+
+<body>
+    <div class="social">
+        <a href="https://facebook.com" title="Facebook" target="_blank" class="social__a">Facebook</a>
+        <a href="https://twitter.com" title="Twitter" target="_blank" class="social__a">Twitter</a>
+        <a href="https://instagram.com" title="Instagram" target="_blank" class="social__a">Instagram</a>
+    </div>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav nav">
+                <h1 class="header__h1">
+                    <a href="index.html" title="All_for.Css" class="header__logo">
+                        All_for.<span class="header__span">Css</span>
+                    </a>
+                </h1>
+                <div class="header__menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="menu" class="header__open" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </div>
+                <ul id="nav" class="header__ul">
+                    <li class="header__li"><a href="index.html" title="Inicio" class="header__a">Inicio</a></li>
+                    <li class="header__li"><a href="gradients.html" title="Gradientes" class="header__a">Gradientes</a></li>
+                    <li class="header__li"><a href="palettes.html" title="Paleta de colores" class="header__a">Paleta de colores</a></li>
+                    <li class="header__li"><a href="icons.html" title="Iconos" class="header__a header__a--active">Iconos</a></li>
+                </ul>
+                <button id="switch" class="header__switch">
+                    <img src="assets/images/sun.svg" alt="Tema claro" class="header__sun">
+                    <img src="assets/images/moon.svg" alt="Tema oscuro" class="header__moon">
+                </button>
+            </nav>
+        </div>
+    </header>
+    <div class="home">
+        <div class="container">
+            <div class="home__title">
+                <h2 class="home__h2"><span class="home__span">Iconos web</span> de alta calidad</h2>
+                <p class="home__p">Iconos simples de código abierto, para su codigo html.</p>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <div class="container">
+            <div class="main__content">
+                <div class="main__boxes">
+                    <div class="main__box">
+                        <h3>Uso en HEAD</h3>
+                        <p>Copie y pegue el enlace de la hoja de estilo en su head, para cargar nuestro CSS</p>
+                        <p>&lt;link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'&gt;</p>
+                    </div>
+                    <div class="main__box">
+                        <h3>Uso en HTML</h3>
+                        <p>Agregue la siguiente linea, con el nombre del icono que desea utilizar</p>
+                        <p>&lt;i class='bx bx-<strong>home-alt</strong>'&gt;&lt;/i&gt;</p>
+                        <p>&lt;i class='bx bx-<strong>user</strong>'&gt;&lt;/i&gt;</p>
+                    </div>
+                </div>
+                <div class="main__search">
+                    <input type="text" placeholder="Buscar..." id="search-box">
+                </div>
+                <div class="main__cards">
+                    <div class="main__card" data-search="home">
+                        <i class='bx bx-home'></i>
+                        <p class="card__p">home</p>
+                    </div>
+                    <div class="main__card" data-search="home">
+                        <i class='bx bx-home-alt-2'></i>
+                        <p class="card__p">home-alt</p>
+                    </div>
+                    <div class="main__card" data-search="home">
+                        <i class='bx bxs-home-alt-2'></i>
+                        <p class="card__p">home-alt</p>
+                    </div>
+                    <div class="main__card" data-search="color palette">
+                        <i class='bx bxs-color'></i>
+                        <p class="card__p">color</p>
+                    </div>
+                    <div class="main__card" data-search="shower">
+                        <i class='bx bxs-shower'></i>
+                        <p class="card__p">shower</p>
+                    </div>
+                    <div class="main__card" data-search="add more">
+                        <i class="bx bxs-plus-circle"></i>
+                        <p class="card__p">add</p>
+                    </div>
+                    <div class="main__card" data-search="cart add">
+                        <i class="bx bxs-cart-add"></i>
+                        <p class="card__p">cart-add</p>
+                    </div>
+                    <div class="main__card" data-search="html5 page ">
+                        <i class='bx bxl-html5'></i>
+                        <p class="card__p">html5</p>
+                    </div>
+                    <div class="main__card" data-search="css3 page style">
+                        <i class='bx bxl-css3'></i>
+                        <p class="card__p">css3</p>
+                    </div>
+                    <div class="main__card" data-search="javascript language">
+                        <i class='bx bxl-javascript'></i>
+                        <p class="card__p">javascript</p>
+                    </div>
+                    <div class="main__card" data-search="react library page">
+                        <i class='bx bxl-react'></i>
+                        <p class="card__p">react</p>
+                    </div>
+                    <div class="main__card" data-search="php page">
+                        <i class='bx bxl-php'></i>
+                        <p class="card__p">php</p>
+                    </div>
+                    <div class="main__card" data-search="github page repository">
+                        <i class='bx bxl-github'></i>
+                        <p class="card__p">github</p>
+                    </div>
+                    <div class="main__card" data-search="face">
+                        <i class='bx bx-face'></i>
+                        <p class="card__p">face</p>
+                    </div>
+                    <div class="main__card" data-search="face">
+                        <i class='bx bxs-face'></i>
+                        <p class="card__p">face</p>
+                    </div>
+                    <div class="main__card" data-search="food menu book">
+                        <i class='bx bxs-food-menu'></i>
+                        <p class="card__p">food-menu</p>
+                    </div>
+                    <div class="main__card" data-search="menu bar">
+                        <i class='bx bx-menu'></i>
+                        <p class="card__p">menu</p>
+                    </div>
+                    <div class="main__card" data-search="menu bar left">
+                        <i class='bx bx-menu-alt-left'></i>
+                        <p class="card__p">menu-alt-left</p>
+                    </div>
+                    <div class="main__card" data-search="menu bar right">
+                        <i class='bx bx-menu-alt-right'></i>
+                        <p class="card__p">menu-alt-right</p>
+                    </div>
+                    <div class="main__card" data-search="facebook social networks">
+                        <i class="bx bxl-facebook"></i>
+                        <p class="card__p">facebook</p>
+                    </div>
+                    <div class="main__card" data-search="facebook social networks">
+                        <i class='bx bxl-facebook-circle'></i>
+                        <p class="card__p">fb.-circle</p>
+                    </div>
+                    <div class="main__card" data-search="facebook social networks">
+                        <i class='bx bxl-facebook-square'></i>
+                        <p class="card__p">fb.-square</p>
+                    </div>
+                    <div class="main__card" data-search="instagram social networks">
+                        <i class='bx bxl-instagram'></i>
+                        <p class="card__p">instagram</p>
+                    </div>
+                    <div class="main__card" data-search="twitter social networks">
+                        <i class='bx bxl-twitter'></i>
+                        <p class="card__p">twitter</p>
+                    </div>
+                    <div class="main__card" data-search="youtube social networks video">
+                        <i class='bx bxl-youtube' ></i>
+                        <p class="card__p">youtube</p>
+                    </div>
+                    <div class="main__card" data-search="whatsapp social networks message">
+                        <i class='bx bxl-whatsapp-square'></i>
+                        <p class="card__p">whatsapp</p>
+                    </div>
+                    <div class="main__card" data-search="twitch social networks">
+                        <i class='bx bxl-twitch'></i>
+                        <p class="card__p">twitch</p>
+                    </div>
+                    <div class="main__card" data-search="discord social networks">
+                        <i class='bx bxl-discord'></i>
+                        <p class="card__p">discord</p>
+                    </div>
+                    <div class="main__card" data-search="group">
+                        <i class='bx bxs-group'></i>
+                        <p class="card__p">group</p>
+                    </div>
+                    <div class="main__card" data-search="group">
+                        <i class='bx bx-group'></i>
+                        <p class="card__p">group</p>
+                    </div>
+                    <div class="main__card" data-search="chevrons left">
+                        <i class='bx bxs-chevrons-left'></i>
+                        <p class="card__p">chevrons-left</p>
+                    </div>
+                    <div class="main__card" data-search="chevrons up">
+                        <i class='bx bxs-chevrons-up'></i>
+                        <p class="card__p">chevrons-up</p>
+                    </div>
+                    <div class="main__card" data-search="chevrons right">
+                        <i class='bx bxs-chevrons-right' ></i>
+                        <p class="card__p">chevrons-right</p>
+                    </div>
+                    <div class="main__card" data-search="chevron left">
+                        <i class='bx bxs-chevron-left'></i>
+                        <p class="card__p">chevron left</p>
+                    </div>
+                    <div class="main__card" data-search="chevrons up">
+                        <i class='bx bxs-chevron-up'></i>
+                        <p class="card__p">chevron-up</p>
+                    </div>
+                    <div class="main__card" data-search="chevrons right">
+                        <i class='bx bxs-chevron-right'></i>
+                        <p class="card__p">chevron-right</p>
+                    </div>
+                    <div class="main__card" data-search="expand up down">
+                        <i class='bx bx-expand-vertical'></i>
+                        <p class="card__p">expand-v</p>
+                    </div>
+                    <div class="main__card" data-search="expand left">
+                        <i class='bx bx-expand-horizontal'></i>
+                        <p class="card__p">expand-h</p>
+                    </div>
+                    <div class="main__card" data-search="cloud upload">
+                        <i class='bx bx-cloud-upload'></i>
+                        <p class="card__p">cloud-upload</p>
+                    </div>
+                    <div class="main__card" data-search="arrow up">
+                        <i class='bx bx-up-arrow-alt'></i>
+                        <p class="card__p">up-arrow-alt</p>
+                    </div>
+                    <div class="main__card" data-search="arrow up">
+                        <i class='bx bxs-up-arrow'></i>
+                        <p class="card__p">up-arrow</p>
+                    </div>
+                    <div class="main__card" data-search="ballon">
+                        <i class='bx bxs-balloon'></i>
+                        <p class="card__p">balloon</p>
+                    </div>
+                    <div class="main__card" data-search="image landscape">
+                        <i class='bx bxs-image'></i>
+                        <p class="card__p">image</p>
+                    </div>
+                    <div class="main__card" data-search="aws amazon services">
+                        <i class='bx bxl-aws'></i>
+                        <p class="card__p">aws</p>
+                    </div>
+                    <div class="main__card" data-search="chat message">
+                        <i class='bx bx-chat'></i>
+                        <p class="card__p">chat</p>
+                    </div>
+                    <div class="main__card" data-search="chat message">
+                        <i class='bx bxs-chat'></i>
+                        <p class="card__p">chat</p>
+                    </div>
+                    <div class="main__card" data-search="chat message">
+                        <i class='bx bx-message-rounded-dots'></i>
+                        <p class="card__p">message</p>
+                    </div>
+                    <div class="main__card" data-search="droplet">
+                        <i class='bx bx-droplet'></i>
+                        <p class="card__p">droplet</p>
+                    </div>
+                    <div class="main__card" data-search="droplet">
+                        <i class='bx bxs-droplet-half'></i>
+                        <p class="card__p">droplet-half</p>
+                    </div>
+                    <div class="main__card" data-search="color palette">
+                        <i class='bx bx-palette'></i>
+                        <p class="card__p">palette</p>
+                    </div>
+                    <div class="main__card" data-search="color palette">
+                        <i class='bx bxs-palette'></i>
+                        <p class="card__p">palette</p>
+                    </div>
+                    <div class="main__card" data-search="archive download in">
+                        <i class='bx bxs-archive-in'></i>
+                        <p class="card__p">archive-in</p>
+                    </div>
+                    <div class="main__card" data-search="archive up out">
+                        <i class='bx bx-archive-out'></i>
+                        <p class="card__p">archive-out</p>
+                    </div>
+                    <div class="main__card" data-search="image landscape">
+                        <i class='bx bx-image-alt'></i>
+                        <p class="card__p">image-alt</p>
+                    </div>
+                    <div class="main__card" data-search="bookmarks">
+                        <i class='bx bx-bookmarks'></i>
+                        <p class="card__p">bookmarks</p>
+                    </div>
+                    <div class="main__card" data-search="camera">
+                        <i class='bx bx-camera'></i>
+                        <p class="card__p">camera</p>
+                    </div>
+                    <div class="main__card" data-search="toogle left">
+                        <i class='bx bx-toggle-left'></i>
+                        <p class="card__p">toggle-left</p>
+                    </div>
+                    <div class="main__card" data-search="toogle right">
+                        <i class='bx bx-toggle-right'></i>
+                        <p class="card__p">toggle-right</p>
+                    </div>
+                    <div class="main__card" data-search="zoom in">
+                        <i class='bx bx-zoom-in'></i>
+                        <p class="card__p">zoom-in</p>
+                    </div>
+                    <div class="main__card" data-search="zoom out">
+                        <i class='bx bx-zoom-out'></i>
+                        <p class="card__p">zoom-out</p>
+                    </div>
+                    <div class="main__card" data-search="headphone">
+                        <i class='bx bx-headphone'></i>
+                        <p class="card__p">headphone</p>
+                    </div>
+                    <div class="main__card" data-search="heart">
+                        <i class='bx bx-heart'></i>
+                        <p class="card__p">heart</p>
+                    </div>
+                    <div class="main__card" data-search="heart">
+                        <i class='bx bxs-heart'></i>
+                        <p class="card__p">heart</p>
+                    </div>
+                    <div class="main__card" data-search="phone">
+                        <i class='bx bx-phone'></i>
+                        <p class="card__p">phone</p>
+                    </div>
+                    <div class="main__card" data-search="wifi inalambic">
+                        <i class='bx bx-wifi'></i>
+                        <p class="card__p">wifi</p>
+                    </div>
+                    <div class="main__card" data-search="card credit">
+                        <i class='bx bx-credit-card'></i>
+                        <p class="card__p">credit-card</p>
+                    </div>
+                    <div class="main__card" data-search="behance social networks">
+                        <i class='bx bxl-behance'></i>
+                        <p class="card__p">behance</p>
+                    </div>
+                    <div class="main__card" data-search="linkedin social networks">
+                        <i class='bx bxl-linkedin'></i>
+                        <p class="card__p">linkedin</p>
+                    </div>
+                    <div class="main__card" data-search="show eye">
+                        <i class='bx bxs-show'></i>
+                        <p class="card__p">show</p>
+                    </div>
+                    <div class="main__card" data-search="rocket">
+                        <i class='bx bx-rocket'></i>
+                        <p class="card__p">rocket</p>
+                    </div>
+                    <div class="main__card" data-search="rocket">
+                        <i class='bx bxs-rocket'></i>
+                        <p class="card__p">rocket</p>
+                    </div>
+                    <div class="main__card" data-search="check">
+                        <i class='bx bx-check-double'></i>
+                        <p class="card__p">check-double</p>
+                    </div>
+                    <div class="main__card" data-search="check">
+                        <i class='bx bx-check-circle'></i>
+                        <p class="card__p">check-circle</p>
+                    </div>
+                    <div class="main__card" data-search="check">
+                        <i class='bx bxs-check-circle'></i>
+                        <p class="card__p">check-circle</p>
+                    </div>
+                    <div class="main__card" data-search="play store">
+                        <i class='bx bxl-play-store'></i>
+                        <p class="card__p">play-store</p>
+                    </div>
+                    <div class="main__card" data-search="image landscape">
+                        <i class='bx bxs-image-alt'></i>
+                        <p class="card__p">image-alt</p>
+                    </div>
+                    <div class="main__card" data-search="coin stack">
+                        <i class='bx bx-coin-stack'></i>
+                        <p class="card__p">coin-stack</p>
+                    </div>
+                    <div class="main__card" data-search="image landscape">
+                        <i class='bx bx-image'></i>
+                        <p class="card__p">image</p>
+                    </div>
+                    <div class="main__card" data-search="coin stack">
+                        <i class='bx bxs-coin-stack'></i>
+                        <p class="card__p">coin-stack</p>
+                    </div>
+                    <div class="main__card" data-search="volume">
+                        <i class='bx bx-volume'></i>
+                        <p class="card__p">volume</p>
+                    </div>
+                    <div class="main__card" data-search="volume full">
+                        <i class='bx bx-volume-full'></i>
+                        <p class="card__p">volume-full</p>
+                    </div>
+                    <div class="main__card" data-search="volume low">
+                        <i class='bx bx-volume-low'></i>
+                        <p class="card__p">volume-low</p>
+                    </div>
+                    <div class="main__card" data-search="volume mute">
+                        <i class='bx bx-volume-mute' ></i>
+                        <p class="card__p">volume-mute</p>
+                    </div>
+                    <div class="main__card" data-search="bluetooth">
+                        <i class='bx bx-bluetooth' ></i>
+                        <p class="card__p">bluetooth</p>
+                    </div>
+                    <div class="main__card" data-search="shopping bags">
+                        <i class='bx bxs-shopping-bags'></i>
+                        <p class="card__p">shopp-bags</p>
+                    </div>
+                    <div class="main__card" data-search="brightness">
+                        <i class='bx bx-brightness'></i>
+                        <p class="card__p">brightness</p>
+                    </div>
+                    <div class="main__card" data-search="comment add">
+                        <i class='bx bx-comment-add'></i>
+                        <p class="card__p">coment-add</p>
+                    </div>
+                    <div class="main__card" data-search="comment minus">
+                        <i class='bx bx-comment-minus'></i>
+                        <p class="card__p">coment-minus</p>
+                    </div>
+                    <div class="main__card" data-search="slideshow">
+                        <i class='bx bx-slideshow'></i>
+                        <p class="card__p">slideshow</p>
+                    </div>
+                    <div class="main__card" data-search="slideshow">
+                        <i class='bx bxs-slideshow'></i>
+                        <p class="card__p">slideshow</p>
+                    </div>
+                </div>
+                <div class="main__btn">
+                    <a href="https://boxicons.com/" title="Boxicons" target="_blank" class="main__page">Mas Opciones</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__nav">
+                <div class="footer__left">
+                    <h3 class="footer__h3">
+                        <a href="index.html" title="All_for.Css" class="footer__logo">All_for.Css</a>
+                    </h3>
+                    <div class="footer__socials">
+                        <a href="https://facebook.com" title="Facebook" target="_blank" class="footer__svg">
+                            <img src="assets/images/facebook.svg" alt="Enlace a Facebook">
+                        </a>
+                        <a href="https://twitter.com" title="Twitter" target="_blank" class="footer__svg">
+                            <img src="assets/images/twitter.svg" alt="Enlace a Twitter">
+                        </a>
+                        <a href="https://instagram.com" title="Instagram" target="_blank" class="footer__svg">
+                            <img src="assets/images/instagram.svg" alt="Enlace a Instagram">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__right">
+                    <div class="footer__link">
+                        <p class="footer__p">Recursos utilizados</p>
+                        <a href="https://colorhunt.co/" title="Color Hunt" target="_blank" class="footer__a">Color Hunt</a>
+                        <a href="https://gradients.party/" title="Gradients" target="_blank" class="footer__a">Gradients</a>
+                        <a href="https://undraw.co/illustrations" title="Undraw" target="_blank" class="footer__a">Undraw</a>
+                        <a href="https://boxicons.com/" title="Boxicons" target="_blank" class="footer__a">Boxicons</a>
+                    </div>
+                    <div class="footer__link">
+                        <p class="footer__p">Colaboradores</p>
+                        <a href="https://tinypng.com/" title="Tinypng" target="_blank" class="footer__a">Tinypng</a>
+                        <a href="https://imagehover.io/" title="Image Hover" target="_blank" class="footer__a">Image Hover</a>
+                        <a href="https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections" title="Smooth" target="_blank" class="footer__a">Smooth</a>
+                        <a href="https://bennettfeely.com/clippy/" title="Bennett Feely" target="_blank" class="footer__a">Bennett Feely</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

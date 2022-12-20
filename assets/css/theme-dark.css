@@ -1,0 +1,16 @@
+body.dark {
+    --blanco: #e3e3e3;
+    --color-headerSocial: #191a20;
+    --sombra-header: #343434;
+    --color-primario: #ffba2e;
+    --color-footer: #22242c;
+    --gris-claro: #292b33;
+    --gris-medio: #212121;
+    --gris-oscuro: #e3e3e3;
+    --gris-boxicons: #aeaeae;
+    --gris-search: #d0d0d0;
+    --main-title: #22242c;
+    --main-page: #292b33;
+    --border-gradient: 0.0625em solid #505050;
+    --sombra-boxicons: 0 1px 2px 0 #ffffff50,0 2px 10px 0 #ffffff35;
+}

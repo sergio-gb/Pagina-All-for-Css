@@ -1,0 +1,198 @@
+.home__h2 {
+    max-width: none;
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*======================================== FILTERS =====*/
+.main__filters {
+    display: flex;
+    justify-content: center;
+}
+
+.main__filter {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    margin-bottom: 3em;
+    border: var(--border-gradient);
+    border-radius: var(--border-radius);
+}
+
+.filter__p {
+    font-weight: 500;
+}
+
+.filter__ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.625em;
+    list-style-type: none;
+}
+
+.filter__li {
+    width: 1.875em;
+    height: 1.875em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.filter__li--1 {
+    background: #e74c3c;
+}
+
+.filter__li--2 {
+    background: #2ecc71;
+}
+
+.filter__li--3 {
+    background: #3498db;
+}
+
+.filter__li--4 {
+    background: #f1c40f;
+}
+
+.filter__li--5 {
+    background: #9b59b6;
+}
+
+
+/*======================================== GRADIENTS =====*/
+.main__gradients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25em;
+}
+
+.main__gradient {
+    min-width: 17.5em;
+    min-height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625em;
+    flex: 1;
+    padding:  1.25em;
+    border: var(--border-gradient);
+    border-radius: var(--border-radius);
+}
+
+.main__icons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.main__bx {
+    font-size: 1.75em;
+    opacity: .4;
+    cursor: pointer;
+}
+
+.main__button {
+    border: none;
+    margin: 0.625em;
+    min-width: 15em;
+    min-height: 5em;
+    border-radius: var(--border-radius);
+    font-size: 1em;
+    box-shadow: 0 2px 5px #00000033;
+}
+
+.main__button--1 {
+    background: linear-gradient(90deg, #ff75c6, #80b1f9, #80f4ff);
+}
+
+.main__button--2 {
+    background: linear-gradient(90deg, #ed0984, #ff8530, #d4ed3d);
+}
+
+.main__button--3 {
+    background: linear-gradient(to right, #86efac, #3b82f6, #9333ea)
+}
+
+.main__button--4 {
+    background: linear-gradient(90deg, #3f2b93 10%, #a8c0ff 100%);
+}
+
+.main__button--5 {
+    background: linear-gradient(90deg, #d18169 10%, #f4bfaf 100%);
+}
+
+.main__button--6 {
+    background: linear-gradient(90deg, #0e197d 10%, #ffdb01 100%);
+}
+
+.main__button--7 {
+    background: linear-gradient(90deg, #70f570 10%, #3bc315 100%);
+}
+
+.main__button--8 {
+    background: linear-gradient(90deg, #fdd819 10%, #e80505 100%);
+}
+
+.main__button--9 {
+    background: linear-gradient(90deg, #3b2667 10%, #bc78ec 100%);
+}
+
+.main__button--10 {
+    background: linear-gradient(90deg, #ee9ae5 10%, #5961f9 100%);
+}
+
+.main__button--11 {
+    background: linear-gradient(90deg, #cac531 10%, #f3f9a7 100%);
+}
+
+.main__button--12 {
+    background: linear-gradient(90deg, #1e9600 10%, #ff0000 100%);
+}
+
+.main__button--13 {
+    background: linear-gradient(90deg, #005aa7 10%, #a4a4a4 100%);
+}
+
+.main__button--14 {
+    background: linear-gradient(90deg, #00f260 10%, #0575e6 100%);
+}
+
+.main__button--15 {
+    background: linear-gradient(90deg, #114357 10%, #f29492 100%);
+}
+
+.main__button--16 {
+    background: linear-gradient(90deg, #e53935 10%, #e35d5b 100%);
+}
+
+.main__button--17 {
+    background: linear-gradient(90deg, #fc00ff 10%, #108f91 100%);
+}
+
+.main__button--18 {
+    background: linear-gradient(90deg, #232526 10%, #606060 100%);
+}
+
+.main__button--19 {
+    background: linear-gradient(90deg, #ff8008 10%, #ffc837 100%);
+}
+
+.main__button--20 {
+    background: linear-gradient(90deg, #5433ff 10%, #a5fecb 100%);
+}
+
+.main__button--21 {
+    background: linear-gradient(90deg, #ff6e7f 10%, #bfe9ff 100%);
+}
+
+.main__hex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    color: var(--gris-boxicons);
+}

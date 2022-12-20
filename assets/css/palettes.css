@@ -1,0 +1,651 @@
+.home__h2 {
+    max-width: none;
+}
+
+.main__boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15.625em, 1fr));
+    grid-auto-rows: 18.75em;
+    gap: 1.875em;
+}
+
+.main__box {
+    position: relative;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.box__p {
+    padding: 0.4em;
+}
+
+.box__p span {
+    display: inline-block;
+    background-color: #00000048;
+    color: var(--blanco);
+    padding: 0.1em 0.4375em;
+    border-radius: var(--border-radius);
+    opacity: 0;
+}
+
+.bxs-heart {
+    position: absolute;
+    top: 0.625em;
+    right: 0.625em;
+    font-size: 1.25em;
+    background: #00000075;
+    color: var(--blanco);
+    border-radius: 50%;
+    padding: 0.3125em;
+    cursor: pointer;
+}
+
+.bxs-heart__red {
+    color: #ff4343;
+}
+
+
+/*========================================= BOX 1 =====*/
+.main__box--1 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #e97777;
+}
+
+.main__box--1 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #ff9f9f;
+}
+
+.main__box--1 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #fcddb0;
+}
+
+.main__box--1 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #fffad7;
+}
+/*========================================= BOX 2 =====*/
+.main__box--2 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #1db9c3;
+}
+
+.main__box--2 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #7027a0;
+}
+
+.main__box--2 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #c32bad;
+}
+
+.main__box--2 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #f56fad;
+}
+/*========================================= BOX 3 =====*/
+.main__box--3 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #557153;
+}
+
+.main__box--3 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #7d8f69;
+}
+
+.main__box--3 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #a9af7e;
+}
+
+.main__box--3 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #e6e5a3;
+}
+/*========================================= BOX 4 =====*/
+.main__box--4 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #e14d2a;
+}
+
+.main__box--4 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #fd841f;
+}
+
+.main__box--4 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #3e6d9c;
+}
+
+.main__box--4 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #001253;
+}
+/*========================================= BOX 5 =====*/
+.main__box--5 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #513252;
+}
+
+.main__box--5 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #7a4069;
+}
+
+.main__box--5 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #ca4e79;
+}
+
+.main__box--5 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #ffc18e;
+}
+/*========================================= BOX 6 =====*/
+.main__box--6 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #191919;
+}
+
+.main__box--6 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #2d4263;
+}
+
+.main__box--6 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #c84b31;
+}
+
+.main__box--6 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #ecdbba;
+}
+/*========================================= BOX 7 =====*/
+.main__box--7 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #7fbcd2;
+}
+
+.main__box--7 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #a5f1e9;
+}
+
+.main__box--7 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #e1ffee;
+}
+
+.main__box--7 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #ffeeaf;
+}
+/*========================================= BOX 8 =====*/
+.main__box--8 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #d8c292;
+}
+
+.main__box--8 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #5b5b5b;
+}
+
+.main__box--8 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #b67171;
+}
+
+.main__box--8 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #c19065;
+}
+/*========================================= BOX 9 =====*/
+.main__box--9 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #e1ebeb;
+}
+
+.main__box--9 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #cadbdd;
+}
+
+.main__box--9 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #497174;
+}
+
+.main__box--9 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #eb6440;
+}
+/*========================================= BOX 10 =====*/
+.main__box--10 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #ffb9b9;
+}
+
+.main__box--10 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #ffddd2;
+}
+
+.main__box--10 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #ffacc7;
+}
+
+.main__box--10 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #ff8dc7;
+}
+/*========================================= BOX 11 =====*/
+.main__box--11 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #65647c;
+}
+
+.main__box--11 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #8b7e74;
+}
+
+.main__box--11 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #c7bca1;
+}
+
+.main__box--11 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #f1d3b3;
+}
+/*========================================= BOX 12=====*/
+.main__box--12 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #ffe15d;
+}
+
+.main__box--12 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #f49d1a;
+}
+
+.main__box--12 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #dc3535;
+}
+
+.main__box--12 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #b01e68;
+}
+/*========================================= BOX 13=====*/
+.main__box--13 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #293462;
+}
+
+.main__box--13 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #1cd6ce;
+}
+
+.main__box--13 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #fedb39;
+}
+
+.main__box--13 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #d61c4e;
+}
+/*========================================= BOX 14=====*/
+.main__box--14 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #ff008e;
+}
+
+.main__box--14 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #d22779;
+}
+
+.main__box--14 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #612897;
+}
+
+.main__box--14 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #0c1e7f;
+}
+/*========================================= BOX 15=====*/
+.main__box--15 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #6c4ab6;
+}
+
+.main__box--15 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #8d72e1;
+}
+
+.main__box--15 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #8d9eff;
+}
+
+.main__box--15 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #b9e0ff;
+}
+/*========================================= BOX 16=====*/
+.main__box--16 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #f1f1f1;
+}
+
+.main__box--16 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #fdb827;
+}
+
+.main__box--16 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #21209c;
+}
+
+.main__box--16 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #23120b;
+}
+/*========================================= BOX 17=====*/
+.main__box--17 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #fff8ea;
+}
+
+.main__box--17 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #9e7676;
+}
+
+.main__box--17 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #815b5b;
+}
+
+.main__box--17 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #594545;
+}
+/*========================================= BOX 18=====*/
+.main__box--18 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #1b1a17;
+}
+
+.main__box--18 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #f0a500;
+}
+
+.main__box--18 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #e45826;
+}
+
+.main__box--18 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #e6d5b8;
+}
+/*========================================= BOX 19=====*/
+.main__box--19 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #00abb3;
+}
+
+.main__box--19 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #3c4048;
+}
+
+.main__box--19 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #b2b2b2;
+}
+
+.main__box--19 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #eaeaea;
+}
+/*========================================= BOX 20=====*/
+.main__box--20 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #ccffbd;
+}
+
+.main__box--20 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #7eca9c;
+}
+
+.main__box--20 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #40394a;
+}
+
+.main__box--20 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #1c1427;
+}
+/*========================================= BOX 21=====*/
+.main__box--21 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #f2deba;
+}
+
+.main__box--21 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #ffefd6;
+}
+
+.main__box--21 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #0e5e6f;
+}
+
+.main__box--21 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #3a8891;
+}
+/*========================================= BOX 22=====*/
+.main__box--22 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #377d71;
+}
+
+.main__box--22 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #fbc5c5;
+}
+
+.main__box--22 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #fba1a1;
+}
+
+.main__box--22 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #8879b0;
+}
+/*========================================= BOX 23=====*/
+.main__box--23 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #990000;
+}
+
+.main__box--23 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #ff5b00;
+}
+
+.main__box--23 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #d4d925;
+}
+
+.main__box--23 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #ffee63;
+}
+/*========================================= BOX 24=====*/
+.main__box--24 p:nth-child(1) {
+    display: block;
+    height: 39%;
+    background: #ffcc1d;
+}
+
+.main__box--24 p:nth-child(2) {
+    display: block;
+    height: 26%;
+    background: #0b4619;
+}
+
+.main__box--24 p:nth-child(3) {
+    display: block;
+    height: 20%;
+    background: #116530;
+}
+
+.main__box--24 p:nth-child(4) {
+    display: block;
+    height: 15%;
+    background: #e8e8cc;
+}
+
+.main__box--1 p:hover span,
+.main__box--2 p:hover span,
+.main__box--3 p:hover span,
+.main__box--4 p:hover span,
+.main__box--5 p:hover span,
+.main__box--6 p:hover span,
+.main__box--7 p:hover span,
+.main__box--8 p:hover span,
+.main__box--9 p:hover span,
+.main__box--10 p:hover span,
+.main__box--11 p:hover span,
+.main__box--12 p:hover span,
+.main__box--13 p:hover span,
+.main__box--14 p:hover span,
+.main__box--15 p:hover span,
+.main__box--16 p:hover span,
+.main__box--17 p:hover span,
+.main__box--18 p:hover span,
+.main__box--19 p:hover span,
+.main__box--20 p:hover span,
+.main__box--21 p:hover span,
+.main__box--22 p:hover span,
+.main__box--23 p:hover span,
+.main__box--24 p:hover span {
+    opacity: 1;
+    transition: .6s ease;
+}

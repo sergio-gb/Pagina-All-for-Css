@@ -1,0 +1,74 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 666 666" width="666" height="666">
+	<title>gradient-logo-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-7.3-138.82l900.5 314.99-219.9 628.65-900.5-314.99z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="m260.09 28.96c3.99-1.92 8.77-0.24 10.68 3.74l112.41 233.33c1.91 3.98 0.24 8.77-3.74 10.68l-233.34 112.41c-3.98 1.91-8.76 0.24-10.68-3.74l-112.4-233.34c-1.92-3.98-0.24-8.76 3.74-10.68z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp3">
+			<path d="m503.79 43.04c3.98-1.92 8.76-0.25 10.68 3.73l112.4 233.34c1.92 3.98 0.24 8.76-3.74 10.68l-233.33 112.4c-3.98 1.92-8.77 0.25-10.68-3.73l-112.41-233.34c-1.91-3.98-0.24-8.76 3.74-10.68z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp4">
+			<path d="m275.64 258.38c3.98-1.91 8.76-0.24 10.68 3.74l112.4 233.34c1.92 3.98 0.25 8.76-3.73 10.68l-233.34 112.4c-3.98 1.92-8.76 0.24-10.68-3.74l-112.4-233.33c-1.92-3.98-0.25-8.77 3.73-10.68z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp5">
+			<path d="m517.45 271.8c3.98-1.92 8.76-0.25 10.68 3.73l112.4 233.34c1.92 3.98 0.24 8.76-3.74 10.68l-233.33 112.4c-3.98 1.92-8.77 0.25-10.68-3.73l-112.41-233.34c-1.91-3.98-0.24-8.76 3.74-10.68z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: #000040 } 
+		.s1 { fill: #0000bf } 
+		.s2 { fill: #4040ff } 
+		.s3 { fill: #bfbfff } 
+		.s4 { fill: #004000 } 
+		.s5 { fill: #00bf00 } 
+		.s6 { fill: #40ff40 } 
+		.s7 { fill: #bfffbf } 
+		.s8 { fill: #400000 } 
+		.s9 { fill: #bf0000 } 
+		.s10 { fill: #ff4040 } 
+		.s11 { fill: #ffbfbf } 
+		.s12 { fill: #1b0040 } 
+		.s13 { fill: #5200bf } 
+		.s14 { fill: #9240ff } 
+		.s15 { fill: #dbbfff } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<g id="Clip-Path" clip-path="url(#cp2)">
+				<g id="Layer">
+					<path id="Layer" class="s0" d="m19.5 144.8l247.8-119.3 29.9 62.2-247.7 119.3z"/>
+					<path id="Layer" class="s1" d="m49.5 207l247.7-119.3 29.6 61.2-247.8 119.4z"/>
+					<path id="Layer" class="s2" d="m79 268.3l247.8-119.4 29.9 62.2-247.8 119.3z"/>
+					<path id="Layer" class="s3" d="m109 330.4l247.7-119.3 29.9 62.1-247.7 119.4z"/>
+				</g>
+			</g>
+			<g id="Clip-Path" clip-path="url(#cp3)">
+				<g id="Layer">
+					<path id="Layer" class="s4" d="m263.2 158.9l247.8-119.3 29.9 62.1-247.7 119.4z"/>
+					<path id="Layer" class="s5" d="m293.2 221.1l247.7-119.4 29.6 61.3-247.8 119.3z"/>
+					<path id="Layer" class="s6" d="m322.7 282.3l247.8-119.3 29.9 62.2-247.8 119.3z"/>
+					<path id="Layer" class="s7" d="m352.6 344.5l247.8-119.3 29.9 62.1-247.7 119.4z"/>
+				</g>
+			</g>
+			<g id="Clip-Path" clip-path="url(#cp4)">
+				<g id="Layer">
+					<path id="Layer" class="s8" d="m35.1 374.3l247.7-119.4 30 62.2-247.8 119.3z"/>
+					<path id="Layer" class="s9" d="m65 436.4l247.8-119.3 29.5 61.2-247.7 119.4z"/>
+					<path id="Layer" class="s10" d="m94.6 497.7l247.7-119.4 29.9 62.2-247.7 119.3z"/>
+					<path id="Layer" class="s11" d="m124.5 559.8l247.8-119.3 29.9 62.2-247.8 119.3z"/>
+				</g>
+			</g>
+			<g id="Clip-Path" clip-path="url(#cp5)">
+				<g id="Layer">
+					<path id="Layer" class="s12" d="m276.9 387.7l247.8-119.4 29.9 62.2-247.8 119.3z"/>
+					<path id="Layer" class="s13" d="m306.8 449.8l247.8-119.3 29.5 61.3-247.7 119.3z"/>
+					<path id="Layer" class="s14" d="m336.4 511.1l247.7-119.3 30 62.1-247.8 119.4z"/>
+					<path id="Layer" class="s15" d="m366.3 573.3l247.8-119.4 29.9 62.2-247.8 119.3z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
